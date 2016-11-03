@@ -1,0 +1,339 @@
+﻿
+.navLogo {
+    background-image: url('../img/logoWiseGreyscale.png');
+    background-position: center -26px;
+    background-size: 145px;
+    background-repeat: no-repeat;
+    width: 144px;
+}
+
+
+
+.navLogoContainer {
+    position:absolute;
+    top:1px;
+    left:1px;
+    width: 140px;
+    height: 47px;
+    background-color: rgb(129, 129, 129);
+    background-image: url('../img/logoHalo.png');
+    background-repeat:no-repeat;
+    -webkit-animation: 10s haloMovement infinite;
+    -moz-animation: 10s haloMovement infinite;
+    animation: 10s haloMovement infinite;
+
+}
+
+@-moz-keyframes haloMovement {
+    0% { 
+        background-position: -80px center;
+    }
+    100% { 
+        background-position: 150px center;
+    }
+
+}
+
+@-webkit-keyframes haloMovement { 
+    0% { 
+        background-position: -80px center;
+    }
+    100% { 
+        background-position: 150px center;
+    }
+}
+
+@keyframes haloMovement {
+    0% { 
+        background-position: -80px center;
+    }
+    100% { 
+        background-position: 150px center;
+    }
+
+}
+
+
+
+.navLogoMask {
+    background-image: url('../img/wiseMask.png');
+    background-position: center -33px;
+    width: 140px;
+    height: 47px;
+    position: absolute;
+    background-size: 157px;
+}
+
+/*FAKE*/ 
+.navLogoMask {
+    background-image: url('../img/logowisepark_noimg.png');
+    background-position: center -7px;
+    width: 140px;
+    height: 47px;
+    position: absolute;
+    background-size: 157px;
+    background-color:white;
+}
+/*FAKE*/
+
+.pinkBg {
+    background-color:rgb(178, 0, 255);
+    color:white;
+}
+
+.nomargin {
+    margin-bottom: 0;
+}
+
+.jumboBrand {
+
+background: rgb(59,91,78);
+background: -moz-linear-gradient(-45deg,  rgba(59,91,78,1) 0%, rgba(40,201,153,1) 13%, rgba(17,68,107,1) 84%, rgba(125,185,232,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(59,91,78,1)), color-stop(13%,rgba(40,201,153,1)), color-stop(84%,rgba(17,68,107,1)), color-stop(100%,rgba(125,185,232,1)));
+background: -webkit-linear-gradient(-45deg,  rgba(59,91,78,1) 0%,rgba(40,201,153,1) 13%,rgba(17,68,107,1) 84%,rgba(125,185,232,1) 100%);
+background: -o-linear-gradient(-45deg,  rgba(59,91,78,1) 0%,rgba(40,201,153,1) 13%,rgba(17,68,107,1) 84%,rgba(125,185,232,1) 100%);
+background: -ms-linear-gradient(-45deg,  rgba(59,91,78,1) 0%,rgba(40,201,153,1) 13%,rgba(17,68,107,1) 84%,rgba(125,185,232,1) 100%);
+background: linear-gradient(135deg,  rgba(59,91,78,1) 0%,rgba(40,201,153,1) 13%,rgba(17,68,107,1) 84%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5b4e', endColorstr='#7db9e8',GradientType=1 );
+
+color:white;
+box-shadow: inset 0px 0px 20px -4px black;
+}
+
+
+.jumboNoPadding {
+    padding-top:10px;
+    background-color:white;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius:4px;
+    box-shadow: inset 0px 0px 20px -10px black;
+}
+
+
+.footerOverride {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-image: url('../img/partnerLogos.png');
+    background-position: 100% 84%;
+    background-repeat: no-repeat;
+    background-size: 208px;
+    font-size: 11px;
+    color:rgba(0, 0, 0, 0.64);
+}
+
+.dummyCell {
+    background-color:black;
+    width:100%;
+    height:100%;
+    display:block;
+    margin:5px;
+    color:white;
+    padding:5px;
+    text-align:center;
+}
+
+
+.floatingIcon {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    transform: rotate(187deg);
+    color:white;
+    opacity:0.4;
+}
+
+
+/*LOGIN STUFF*/
+
+
+.loginLogoMask {
+    background-image: url('../img/logoWiseOriginal.png');
+    background-position: 9% 43%;
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+/*FAKE*/
+.loginLogoMask {
+    background-image: url('../img/logowisepark_noimg.png');
+    background-position: 47% 43%;
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+/*FAKE*/
+
+
+.footerLogin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('../img/partnerLogos.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    font-size: 11px;
+    color:rgba(0, 0, 0, 0.64);
+    text-align: center;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.loginBox {
+    width: 100%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mainBg {
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 49%, rgba(234,234,234,1) 50%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(49%,rgba(224,224,224,1)), color-stop(50%,rgba(234,234,234,1)), color-stop(100%,rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(224,224,224,1) 49%,rgba(234,234,234,1) 50%,rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(224,224,224,1) 49%,rgba(234,234,234,1) 50%,rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(224,224,224,1) 49%,rgba(234,234,234,1) 50%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(224,224,224,1) 49%,rgba(234,234,234,1) 50%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+background-repeat:no-repeat;
+}
+
+/*DASHBOARD*/
+
+.emergentMod {
+    position:absolute;
+    top: 24px;
+    left: 24px;
+    width: 600px;   
+    overflow: hidden;
+}
+
+.emergentModal {
+
+}
+
+.autoAdjust {
+    position:relative;
+    float:left;
+    margin-top:10px;
+    width:100%;
+    min-width:400px;
+    top:0px;
+    left:0px;
+}
+
+.tableMod {
+    font-size:9px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.machinePic {
+    width:100%;
+    height: 180px;
+    background-image: url('../img/wireframeMachine.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 190px;
+}
+
+.graphArea {
+    width:100%;
+    height: 220px;
+    background-color:grey;
+    overflow: hidden;
+}
+
+.batteryContainer {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../img/batteryTest.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+
+tr#valueRow {
+    cursor:pointer;
+}
+
+.jstreeArea {
+    height:700px;
+    overflow:auto;
+}
+
+.stackedBar {
+    border:1px solid white;
+    cursor:pointer;
+}
+
+.stackedBar:hover {
+opacity:0.7;
+}
+
+.heightMod {
+    height:30px;
+}
+
+.dashboardMainArea {
+    width:100%;
+    height:700px;
+    overflow:auto;
+    display:block;
+    background-image:url('../img/mapOffline.png');
+    overflow:hidden;
+    border:1px solid #eee;
+}
+
+.map-settings{
+    position:absolute;
+    top:10px;
+    right:25px;
+}
+
+.hideMap {
+    display:none;
+}
+
+.showMap {
+    display:block;
+}
+
+.spacingMod {
+    margin:4px;
+}
+
+.cityArea {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease; 
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
+    background-color:rgba(224, 224, 224, 0.2);
+    margin-bottom:4px;
+}
+
+
+.hiddenElement {
+    opacity:0.0;
+}
+
+.status1 {
+    background-color:green;color:white;
+}
+
+.status2 {
+    background-color:orange;color:white;
+}
+
+.status3 {
+    background-color:red;color:white;
+}

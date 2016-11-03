@@ -1,0 +1,194 @@
+{
+    "name": "Indicadores",
+    "children": [
+        {
+            "name": "Resultados",
+            "value": 987,
+            "children": [
+                {
+                    "name": "Coste de la Criminalidad",
+                    "value": 132,
+                    "children": [
+                        { "name": "Coste Violencia Contra Personas", "value": 42 },
+                        { "name": "Coste Violencia Propiedades", "value": 46 },
+                        { "name": "Coste Delitos Leves", "value": 34 },
+                        { "name": "Coste Delitos Nuevos", "value": 12 }
+                    ]
+                },
+                {
+                    "name": "Violencia contra Personas",
+                    "value": 124,
+                    "children": [
+                        { "name": "Agresion Agravada", "value": 45 },
+                        { "name": "Asesinato", "value": 67 },
+                        { "name": "Robo", "value": 35 }
+                    ]
+                },
+                {
+                    "name": "Delitos contra Propiedad",
+                    "value": 541,
+                    "children": [
+                        { "name": "Robo de viviendas", "value": 345 },
+                        { "name": "Robo Vehicoulos", "value": 78 },
+                        { "name": "Incendio", "value": 63 }
+                    ]
+                },
+                {
+                    "name": "Delitos Leves",
+                    "value": 267,
+                    "children": [
+                        { "name": "Adulteracion Documentos", "value": 12 },
+                        { "name": "Armas (Porte Ilegal)", "value": 32 },
+                        { "name": "Conducir en estado Ebriedad", "value": 34 },
+                        { "name": "Conducta contraria al orden publico", "value": 43 },
+                        { "name": "Delito contra familia", "value": 68 },
+                        { "name": "Delito sexual menores", "value": 23 },
+                        { "name": "Desfalco", "value": 34 },
+                        { "name": "Ebriedad en Publico", "value": 34 },
+                        { "name": "Fraude", "value": 12 },
+                        { "name": "Fuga", "value": 2 },
+                        { "name": "Juegos dinero ilegal", "value": 25 },
+                        { "name": "Propiedad Robada", "value": 12 },
+                        { "name": "Prostitucion", "value": 34 },
+                        { "name": "Intento agresion no agravada", "value": 23 },
+                        { "name": "Vagabundeo", "value": 12 },
+                        { "name": "Vandalismo", "value": 34 }
+                    ]
+                },
+                {
+                    "name": "Delitos Nuevos",
+                    "value": 98,
+                    "children": [
+                        { "name": "Crimen Organizado", "value": 23 },
+                        { "name": "Crimen de Finanzas", "value": 12 },
+                        { "name": "Crimen motivado prejuicios", "value": 42 },
+                        { "name": "Robo Identidad", "value": 12 },
+                        { "name": "Terrorismo", "value": 34 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Procesos",
+            "value": 2654,
+            "children": [
+                {
+                    "name": "CAD",
+                    "value": 157,
+                    "children": [
+                        { "name": "Tiempo Medio Respuesta Servicios", "value": 34 },
+                        { "name": "Tiempo Medio Resolucion Servicios", "value": 64 },
+                        { "name": "Tiempo medio asignacion servicios", "value": 75 },
+                        { "name": "Teimo Medio Total Servicios", "value": 24 }
+                    ]
+                },
+                {
+                    "name": "Inteligencia",
+                    "value": 354,
+                    "children": [
+                        { "name": "Casos Totales", "value": 100 },
+                        { "name": "Tiempo Medio Reso Casos", "value": 100 },
+                        { "name": "Casos Abiertos", "value": 43 },
+                        { "name": "Tareas en curso(destinatario)", "value": 23 },
+                        { "name": "Tiempo medio resolucion de tareas casos", "value": 54 },
+                        { "name": "Tareas proximas a vencimiento", "value": 12 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Infraestructuras",
+            "value": 6781,
+            "children": [
+                {
+                    "name": "Vehiculos",
+                    "value": 3789,
+                    "children": [
+                        { "name": "Numero total vehiculos", "value": 642 },
+                        { "name": "Numero total vehiculos por estado", "value": 2245 },
+                        { "name": "Tiempo miedo de inactividad de recursos", "value": 345 },
+                        { "name": "Coste medio de utilizacion", "value": 234 }
+                    ]
+                },
+                {
+                    "name": "Armas",
+                    "value": 100,
+                    "children": [
+                        { "name": "Nuemro total Armas", "value": 100 }
+                    ]
+                },
+                {
+                    "name": "Video",
+                    "value": 2234,
+                    "children": [
+                        { "name": "Numero de camaras por ubicacion", "value": 234 },
+                        { "name": "% camaras sin usar", "value": 2000 }
+                    ]
+                },
+                {
+                    "name": "Ubicaciones",
+                    "value": 32,
+                    "children": [
+                        { "name": "Personal asignado por ubicacion", "value": 12 },
+                        { "name": "Personal Operativo", "value": 20 }
+                    ]
+                },
+                {
+                    "name": "Reclutamiento y Formacion",
+                    "value": 450,
+                    "children": [
+                        { "name": "% de policias admitidos sobre solicitudes", "value": 324},
+                        { "name": "Porcentaje de horas dedicadas a formación policial", "value": 23 },
+                        { "name": "%Horas de absentismo laboral", "value": 21 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ciudadanos",
+            "value": 4987,
+            "children": [
+                {
+                    "name": "Percepcion de Inseguridad",
+                    "value": 1121,
+                    "children": [
+                        { "name": "Porcentaje poblacion que sera victima en 2 meses", "value": 346 },
+                        { "name": "Porcentaje opinion de poblacion que cree delicuencia ha aumentado en 6 meses", "value": 568 },
+                        { "name": "Nota promedio seguridad calles", "value": 546 },
+                        { "name": "Porcentaje de poblacion que ha tomado medidas defensivas contra delitos", "value": 345 }
+                    ]
+                },
+                {
+                    "name": "Actividad Policial",
+                    "value": 1278,
+                    "children": [
+                        { "name": "Porcentaje detenidos formalizados en los ultimos 6 meses", "value": 600 },
+                        { "name": "Porcentaje de policias dedicados a investigacion", "value": 678 }
+                    ]
+                },
+                {
+                    "name": "Malas Practicas Policiales",
+                    "value": 2457,
+                    "children": [
+                        { "name": "Tasa anual de denuncias abuso autoridad", "value": 1435 },
+                        { "name": "Porcentaje de manifestantos heridos vs manifestantes detenidos", "value": 345 },
+                        { "name": "Porcentaje de la poblacion que se ha intentado sobornar", "value": 789 }
+                    ]
+                },
+                {
+                    "name": "Relacion Policia - Comunidad",
+                    "value": 765,
+                    "children": [
+                        { "name": "Porcentaje ciudadanos que confia en policias", "value": 45 },
+                        { "name": "Porcentaje ciudadanos que evaluan positivamente a policias", "value": 34 },
+                        { "name": "Tiempo promedio espera por atencion en comisarias", "value": 34 },
+                        { "name": "Porcentaje de usuarios conformes con la atencion recibida", "value": 12 },
+                        { "name": "Porcentaje de policias capacitados para comunidades", "value": 566 },
+                        { "name": "Porcentaje de reuniones de consejo de seguridad y barrios", "value": 76 },
+                        { "name": "Satisfaccion de victimas grupos minoritarios", "value": 17 }
+                    ]
+                }
+            ]
+        }
+    ]
+}

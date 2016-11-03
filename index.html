@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bootstrap 101 Template</title>
+
+   <!-- D3js Init -->
+   <script src="js/d3.min.js"></script>
+   
+   <!--Font Awesome-->
+   <link rel="stylesheet" href="css/font-awesome.css">
+
+
+   <!-- jQuery Init -->
+   <script src="js/jquery.js"></script>
+   <script src="js/jquery.mCustomScrollbar.min.js"></script>
+   <script src="js/jquery.mousewheel.min.js"></script>
+   <script src="js/front.js"></script>
+
+   <!-- Bootstrap Init -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+   <script src="js/bootstrap.min.js"></script>
+
+
+   <!-- stylesheets -->
+   <link rel="stylesheet" href="css/mainStyles.css">
+
+</head>
+<body>
+
+
+
+
+
+      <!-- Static navbar -->
+   <div class="navbar navbar-default nomargin" role="navigation">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navLogo" href="#"><div class="navLogoContainer"><div class="navLogoMask"></div></div></a>
+         </div>
+         <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Reportes</a></li>
+               <li><a href="#">Alarmas</a></li>
+               <li><a href="#">Explotacion</a></li>
+               <!--<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                     <li><a href="#">Action</a></li>
+                     <li><a href="#">Another action</a></li>
+                     <li><a href="#">Something else here</a></li>
+                     <li class="divider"></li>
+                     <li class="dropdown-header">Nav header</li>
+                     <li><a href="#">Separated link</a></li>
+                     <li><a href="#">One more separated link</a></li>
+                  </ul>
+               </li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+               <li><p class="navbar-text">Maria Jose Moron Belmonte</p></li>
+               <li class="active"><a href="../navbar-fixed-top/">Logout</a></li>
+            </ul>
+         </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+   </div>
+
+
+
+   <!-- Main component for a primary marketing message or call to action -->
+   <div class="jumbotron jumboBrand">
+         <div class="container-fluid" style="overflow:hidden;">
+            <h2> Reportes</h2>
+            <div class="fa fa-bar-chart fa-5x floatingIcon"></div>
+           </div>
+      </div>
+
+	 <div class="container-fluid">
+
+
+     <div class="panel panel-default">
+        <div class="panel-heading">
+           <h3 class="panel-title">Search Criteria</h3>
+        </div>
+        <div class="panel-body">
+           
+
+
+         <div class="row">
+            <div class="col-md-8">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+            <div class="col-md-4">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+         </div>
+         <div class="row">
+            <div class="col-md-4">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+            <div class="col-md-4">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+            <div class="col-md-4">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+         </div>
+         <div class="row">
+            <div class="col-md-6">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+            <div class="col-md-6">
+
+               <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+               </div>
+
+						</div>
+         </div>
+					 <div class="row">
+
+         <div class="col-md-10">
+            <button type="submit" class="btn btn-primary">Search</button>
+
+				 </div>
+
+         </div>
+
+
+							
+
+
+
+
+        </div>
+     </div>
+
+
+			 </div>
+
+
+	 <div class="container-fluid">
+
+
+     <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+           <p>The limit of the elements shown is set to 150 max per page....</p>
+
+					 <div class="container-fluid" style="text-align:right">
+           <button type="submit" class="btn btn-primary">Generar PDF</button>
+           <button type="submit" class="btn btn-primary">Generar XSLS</button>
+           <button type="submit" class="btn btn-primary">Generar CSV</button>
+									 </div>
+        </div>
+
+        <!-- Table -->
+        <table class="table table-striped table-hover">
+           <tr>
+              <td>ID</td>
+              <td>Parquimetro</td>
+              <td>Fecha</td>
+              <td>Tipo</td>
+              <td>Criticidad</td>
+              <td>Estado</td>
+              <td>Descripcion</td>
+              <td>custom field 1</td>
+              <td>custom field 2</td>
+              <td>custom field 3</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>ALTA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+           <tr id="valueRow" data-toggle="modal" data-target="#testId">
+              <td>2888</td>
+              <td>PARQ01</td>
+              <td>2014-01-09 11:15:43</td>
+              <td>Falla Descarga GPRS</td>
+              <td>BAJA</td>
+              <td>Solucionado</td>
+              <td>No llega cobertura GSM al lugar correctamente...</td>
+              <td>9876543</td>
+              <td>Custom Text</td>
+              <td>VAL/123</td>
+           </tr>
+        </table>
+     </div>
+
+
+		</div>
+
+   <!-- Large modal -->
+
+   <!-- Modal -->
+   <div class="modal general-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+               ...
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="container-fluid footerOverride">
+
+      Copyright(C) 2014 IECISA Informatica del Corte Ingles<br />
+			Copyright(C) 2014 ETRA Systems
+
+
+   </div>
+
+</body>
+</html>
